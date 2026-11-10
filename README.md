@@ -1,6 +1,6 @@
 # Moon Base 01 · 月面建设工地与开发中心
 
-**一个能拖拽、旋转、能一键飞进舱内的月球基地 3D 沙盘。DeepSeek 写代码，Claude Code 当监工，前后 9 轮，一共花了 6 块钱。**
+**一个能拖拽、旋转、能一键飞进舱内的月球基地 3D 沙盘。DeepSeek 写代码，Claude Code 当监工，前后 12 轮，一共花了不到 7 块钱。**
 
 👉 **在线体验：https://yeje-cpu.github.io/moon-base-3d/**（手机、电脑都能打开）
 
@@ -16,7 +16,7 @@
 - **施工队**：[DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)（`dsh` 命令行），模型用 DeepSeek-V4.1-Flash
 - **监工**：Claude Code。它负责在命令行里调起 dsh 干活、打开浏览器截图验收、写下一轮的修改意见
 - **关键一步**：只给文字提示词时，做出来就是个普通的 demo；喂给它几帧参考视频的截图之后，下一版质量明显上了一个台阶
-- **花费**：一共 9 轮，DeepSeek API 花了约 6 元人民币
+- **花费**：一共 12 轮（含一次 0 花费的失败），DeepSeek API 花了 6.93 元人民币
 - **技术栈**：单个 HTML 文件，three.js r160 从 CDN 加载，所有模型、贴图都用代码现场生成，不需要任何外部素材
 
 ## 提示词
